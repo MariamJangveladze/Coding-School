@@ -1,0 +1,123 @@
+
+body {
+  background-color: #353B3F;
+}
+
+
+.card {
+  position: relative;
+  height: 450px;
+  width: 900px;
+  margin: 200px auto;
+  background-color: #FFF;
+  -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+.container1 {
+  float: left;
+  position: relative;
+  left: 30px;
+  top: -30px;
+  height: 320px;
+  width: 530px;
+  -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+img.left {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: auto;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.right {
+  margin-left: 580px;
+  margin-right: 20px;
+}
+
+h1 {
+  padding-top: 15px;
+  font-size: 1.4rem;
+  color: #4B4B4B;
+}
+
+.author {
+  background-color: #878686;
+  height: 40px;
+  width: 120px;
+  border-radius: 40px;
+}
+
+.author > img {
+  padding-top: 5px;
+  margin-left: 10px;
+  float: left;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+h2 {
+  padding-top: 6px;
+  margin-right: 6px;
+  text-align: left;
+  font-size: 0.78rem;
+}
+.separator {
+  margin-top: 20px;
+  border: 1px solid #C3C3C3;
+}
+
+p {
+  text-align: justify;
+  padding-top: 10px;
+  font-size: 0.95rem;
+  line-height: 150%;
+  color: #4B4B4B;
+}
+
+
+h5 {
+  position: absolute;
+  left: 30px;
+  bottom: -120px;
+  font-size: 5.8rem;
+  color: #C3C3C3;
+}
+
+h6 {
+  position: absolute;
+  left: 30px;
+  bottom: -55px;
+  font-size: 2rem;
+  color: #C3C3C3;
+}
+
+
+.button {
+  position: absolute;
+  right: 50px;
+  bottom: -40px;
+  box-sizing: border-box;
+  padding: 5;
+  background-color: #878686;
+  width: 90px;
+  height: 90px;
+  color: white;
+  text-align:Center;
+  border-radius: 50%;
+  -webkit-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+}
